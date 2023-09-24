@@ -1,0 +1,54 @@
+/* style.css */
+
+body {
+    background-color: #FFF5E1;
+    color: #333333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#main-title {
+    color: #556B2F;
+    background-color: #FAEBD7;
+    text-align: center;
+}
+
+.recipe-page {
+    background-color: #FFF8DC;
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #FF6347;
+    background-color: #FFDAB9;
+    text-align: center;
+}
+
+
+.ingredients{
+    color: #006400;
+}
+
+.steps{
+    color: #8B4513;
+}
+
+.ingredients ul{
+    background-color: #98FB98;
+}
+
+.steps ol {
+    background-color: #FFFACD;
+}
+#back-button {
+    background-color: black;
+    color: white;
+}
+
+img{
+    height: auto;
+    width: 400px;
+}
+
+
+
