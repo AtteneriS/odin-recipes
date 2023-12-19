@@ -1,54 +1,112 @@
-/* style.css */
+/* This page contains
+* General styles
+* Header
+* Nav
+* Content
+**/
+
+/* General Styles */ 
+
+a:hover {
+    background-color: #213159;
+    color: #e7e7e7;
+    padding: 2px;
+}
 
 body {
-    background-color: #FFF5E1;
-    color: #333333;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
 }
 
-#main-title {
-    color: #556B2F;
-    background-color: #FAEBD7;
-    text-align: center;
-}
-
-.recipe-page {
-    background-color: #FFF8DC;
-    color: #333333;
+button {
+    /* margin-bottom: 10px; */
+    width: 33%;
+    background-color: #79889C;
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    
 }
 
 h1 {
-    color: #FF6347;
-    background-color: #FFDAB9;
+    padding: 10px 0px;
+    color: #ffffff;
+    background-color: #799C8D;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana;
+    font-size: 40px;
     text-align: center;
 }
 
 
-.ingredients{
-    color: #006400;
-}
-
-.steps{
-    color: #8B4513;
-}
-
-.ingredients ul{
-    background-color: #98FB98;
-}
-
-.steps ol {
-    background-color: #FFFACD;
-}
-#back-button {
-    background-color: black;
-    color: white;
-}
-
-img{
+img {
+    margin: 0 auto;
     height: auto;
     width: 400px;
 }
+
+li {
+    padding-bottom: 8px;
+}
+
+
+
+/* Header */
+#main-title {
+    color: whitesmoke;
+    background-color: #3d6098;
+    text-align: center;
+    padding: 28px;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+/* Content */
+
+.content {
+    margin: 0 auto;
+    width: 50%;
+    padding: 10px;
+    background-color: #e7e7e7;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buttons-card {
+    margin: 5 0px ;
+    text-align: center;
+}
+
+.ingredients{
+    padding: 15px;
+    width: 30%;
+    background-color: #889C79;
+    color: white;
+}
+    .ingredients ul{
+        margin: auto;
+        padding: 0 1px;
+        width: 90%;
+        /* background-color: #799C7B; */
+    }
+
+.recipe-page {
+    font-family: Arial, Helvetica, sans-serif;
+}
+    .recipe-page .content {
+        background-color: white;
+    }
+
+.steps{
+    background-color: #F0F3EE;
+}
+    /* .steps ol {
+        background-color: #FFFACD;
+    } */
+
+
 
 
 
