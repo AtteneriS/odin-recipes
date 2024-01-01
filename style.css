@@ -1,71 +1,48 @@
-/* This page contains
-* General styles
-* Header
-* Nav
-* Content
-**/
 
 /* General Styles */ 
-
-a:hover {
-    background-color: #213159;
-    color: #e7e7e7;
-    padding: 2px;
-}
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;    
 }
 
-button {
-    /* margin-bottom: 10px; */
-    width: 33%;
-    background-color: #79889C;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    
-}
-
 h1 {
-    padding: 10px 0px;
-    color: #ffffff;
     background-color: #799C8D;
+    color: #ffffff;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana;
     font-size: 40px;
+    padding: 10px 0;
     text-align: center;
-}
-
-
-img {
-    margin: 0 auto;
-    height: auto;
-    width: 400px;
 }
 
 li {
     padding-bottom: 8px;
 }
 
+/* Header and Nav */
 
-
-/* Header */
-#main-title {
-    color: whitesmoke;
-    background-color: #3d6098;
-    text-align: center;
-    padding: 28px;
-    font-size: 48px;
-    font-weight: bolder;
+button {
+    background-color: #79889C;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    width: 33%;
 }
 
-/* Content */
+#main-title {
+    background-color: #3d6098;
+    color: whitesmoke;
+    font-size: 48px;
+    font-weight: bolder;
+    padding: 28px;
+    text-align: center;
+}
 
-.content {
-    margin: 0 auto;
-    width: 50%;
-    padding: 10px;
-    background-color: #e7e7e7;
+/* Sitewide */
+
+a:hover {
+    background-color: #213159;
+    color: #e7e7e7;
+    padding: 2px;
 }
 
 .center {
@@ -74,22 +51,36 @@ li {
     margin-right: auto;
 }
 
+.content {
+    background-color: #e7e7e7;
+    margin: 0 auto;
+    padding: 10px;
+    width: 50%;
+}
+
+img {
+    margin: 0 auto;
+    width: 400px;
+    height: auto;
+}
+
+/* Recipe pages */
+
 .buttons-card {
-    margin: 5 0px ;
+    margin: 5px 0;
     text-align: center;
 }
 
 .ingredients{
-    padding: 15px;
-    width: 30%;
     background-color: #889C79;
     color: white;
+    padding: 15px;
+    width: 30%;
 }
     .ingredients ul{
         margin: auto;
         padding: 0 1px;
         width: 90%;
-        /* background-color: #799C7B; */
     }
 
 .recipe-page {
@@ -102,11 +93,5 @@ li {
 .steps{
     background-color: #F0F3EE;
 }
-    /* .steps ol {
-        background-color: #FFFACD;
-    } */
-
-
-
 
 
