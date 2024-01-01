@@ -28,6 +28,11 @@ button {
     width: 33%;
 }
 
+.buttons-card {
+    margin: 5px 0;
+    text-align: center;
+}
+
 #main-title {
     background-color: #3d6098;
     color: whitesmoke;
@@ -35,15 +40,10 @@ button {
     font-weight: bolder;
     padding: 28px;
     text-align: center;
+    margin: -8px -8px 20px -8px;
 }
 
 /* Sitewide */
-
-a:hover {
-    background-color: #213159;
-    color: #e7e7e7;
-    padding: 2px;
-}
 
 .center {
     display: block;
@@ -55,27 +55,33 @@ a:hover {
     background-color: #e7e7e7;
     margin: 0 auto;
     padding: 10px;
-    width: 50%;
+    width: 70%;
 }
 
 img {
-    margin: 0 auto;
     width: 400px;
     height: auto;
 }
 
+.link:hover {
+    background-color: #213159;
+    color: #e7e7e7;
+    padding: 2px;
+}
+
 /* Recipe pages */
 
-.buttons-card {
-    margin: 5px 0;
-    text-align: center;
+
+.recipe-intro {
+    background-color: #F0F3EE;
+    padding: 15px;
+    text-align: justify;
 }
 
 .ingredients{
     background-color: #889C79;
     color: white;
     padding: 15px;
-    width: 30%;
 }
     .ingredients ul{
         margin: auto;
@@ -92,6 +98,7 @@ img {
 
 .steps{
     background-color: #F0F3EE;
+    padding: 15px;
 }
 
 
