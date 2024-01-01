@@ -71,17 +71,16 @@ img {
 
 /* Recipe pages */
 
+.ingredients{
+    background-color: #889C79;
+    color: white;
+    padding: 5px 15px;
+}
 
 .recipe-intro {
     background-color: #F0F3EE;
     padding: 15px;
     text-align: justify;
-}
-
-.ingredients{
-    background-color: #889C79;
-    color: white;
-    padding: 5px 15px;
 }
 
 .recipe-page {
@@ -95,5 +94,3 @@ img {
     background-color: #F0F3EE;
     padding: 5px 15px;
 }
-
-
